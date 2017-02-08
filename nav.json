@@ -1,0 +1,278 @@
+{
+  "nav": [
+    {
+      "name": "首页",
+      "en": "Home",
+      "front": true,
+      "bePartOf": "",
+      "only": 0,
+      "pageType": "_package"
+    },
+    {
+      "name": "首页设置",
+      "en": "HomeSetting",
+      "front": false,
+      "bePartOf": "HomeSetting",
+      "only": 1,
+      "pageType": "_package"
+    },
+    {
+      "name": "联系我们",
+      "en": "ContactUS",
+      "front": true,
+      "bePartOf": "联系我们",
+      "only": 0,
+      "pageType": "_package"
+    },
+    {
+      "name": "关于我们",
+      "en": "AboutUS",
+      "front": true,
+      "bePartOf": "了解我们",
+      "only": 0,
+      "pageType": "_package"
+    },
+    {
+      "name": "服务",
+      "en": "Service",
+      "front": true,
+      "bePartOf": "服务",
+      "only": 0,
+      "pageType": "_package"
+    },
+    {
+      "name": "文章列表",
+      "en": "ArticleList",
+      "front": true,
+      "bePartOf": "",
+      "only": 0,
+      "pageType": "_List"
+    },
+    {
+      "name": "文章详情",
+      "en": "ArticleDetails",
+      "front": true,
+      "bePartOf": "",
+      "only": 0,
+      "pageType": "_Details"
+    },
+    {
+      "name": "文章管理",
+      "en": "ArticleManage",
+      "front": false,
+      "bePartOf": "ArticleManage",
+      "only": 1,
+      "pageType": "_List"
+    },
+    {
+      "name": "文章编辑",
+      "en": "ArticleEdit",
+      "front": false,
+      "bePartOf": "ArticleManage",
+      "only": 1,
+      "pageType": "Article_Edit"
+    },
+    {
+      "name": "文章分类管理",
+      "en": "ArticleClass",
+      "front": false,
+      "bePartOf": "ArticleManage",
+      "only": 1,
+      "pageType": "_package"
+    },
+    {
+      "name": "案例列表",
+      "en": "CaseList",
+      "front": true,
+      "bePartOf": "案例",
+      "only": 0,
+      "pageType": "_List"
+    },
+    {
+      "name": "案例详情",
+      "en": "CaseDetails",
+      "front": true,
+      "bePartOf": "案例",
+      "only": 0,
+      "pageType": "_Details"
+    },
+    {
+      "name": "案例管理",
+      "en": "CaseManage",
+      "front": false,
+      "bePartOf": "CaseManage",
+      "only": 1,
+      "pageType": "_List"
+    },
+    {
+      "name": "案例编辑",
+      "en": "CaseEdit",
+      "front": false,
+      "bePartOf": "CaseManage",
+      "only": 1,
+      "pageType": "Article_Edit"
+    },
+    {
+      "name": "案例分类管理",
+      "en": "CaseClass",
+      "front": false,
+      "bePartOf": "CaseManage",
+      "only": 1,
+      "pageType": "_package"
+    },
+    {
+      "name": "后台登录",
+      "en": "Login",
+      "front": false,
+      "bePartOf": "",
+      "only": 0,
+      "pageType": "_Login"
+    },
+    {
+      "name": "详细介绍",
+      "en": "doc",
+      "front": true,
+      "bePartOf": "Service",
+      "only": 0,
+      "pageType": "_package"
+    }
+  ],
+  "builded": [
+    {
+      "name": "首页",
+      "en": "Home",
+      "front": true,
+      "bePartOf": "",
+      "only": 0,
+      "pageType": "_package"
+    },
+    {
+      "name": "首页设置",
+      "en": "HomeSetting",
+      "front": false,
+      "bePartOf": "HomeSetting",
+      "only": 1,
+      "pageType": "_package"
+    },
+    {
+      "name": "联系我们",
+      "en": "ContactUS",
+      "front": true,
+      "bePartOf": "联系我们",
+      "only": 0,
+      "pageType": "_package"
+    },
+    {
+      "name": "关于我们",
+      "en": "AboutUS",
+      "front": true,
+      "bePartOf": "了解我们",
+      "only": 0,
+      "pageType": "_package"
+    },
+    {
+      "name": "服务",
+      "en": "Service",
+      "front": true,
+      "bePartOf": "服务",
+      "only": 0,
+      "pageType": "_package"
+    },
+    {
+      "name": "文章列表",
+      "en": "ArticleList",
+      "front": true,
+      "bePartOf": "",
+      "only": 0,
+      "pageType": "_List"
+    },
+    {
+      "name": "文章详情",
+      "en": "ArticleDetails",
+      "front": true,
+      "bePartOf": "",
+      "only": 0,
+      "pageType": "_Details"
+    },
+    {
+      "name": "文章管理",
+      "en": "ArticleManage",
+      "front": false,
+      "bePartOf": "ArticleManage",
+      "only": 1,
+      "pageType": "_List"
+    },
+    {
+      "name": "文章编辑",
+      "en": "ArticleEdit",
+      "front": false,
+      "bePartOf": "ArticleManage",
+      "only": 1,
+      "pageType": "Article_Edit"
+    },
+    {
+      "name": "文章分类管理",
+      "en": "ArticleClass",
+      "front": false,
+      "bePartOf": "ArticleManage",
+      "only": 1,
+      "pageType": "_package"
+    },
+    {
+      "name": "案例列表",
+      "en": "CaseList",
+      "front": true,
+      "bePartOf": "案例",
+      "only": 0,
+      "pageType": "_List"
+    },
+    {
+      "name": "案例详情",
+      "en": "CaseDetails",
+      "front": true,
+      "bePartOf": "案例",
+      "only": 0,
+      "pageType": "_Details"
+    },
+    {
+      "name": "案例管理",
+      "en": "CaseManage",
+      "front": false,
+      "bePartOf": "CaseManage",
+      "only": 1,
+      "pageType": "_List"
+    },
+    {
+      "name": "案例编辑",
+      "en": "CaseEdit",
+      "front": false,
+      "bePartOf": "CaseManage",
+      "only": 1,
+      "pageType": "Article_Edit"
+    },
+    {
+      "name": "案例分类管理",
+      "en": "CaseClass",
+      "front": false,
+      "bePartOf": "CaseManage",
+      "only": 1,
+      "pageType": "_package"
+    },
+    {
+      "name": "后台登录",
+      "en": "Login",
+      "front": false,
+      "bePartOf": "",
+      "only": 0,
+      "pageType": "_Login"
+    },
+    {
+      "name": "详细介绍",
+      "en": "doc",
+      "front": true,
+      "bePartOf": "Service",
+      "only": 0,
+      "pageType": "_package"
+    }
+  ]
+}

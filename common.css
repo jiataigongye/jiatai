@@ -1,0 +1,56 @@
+@charset "UTF-8";
+.index-footer {
+  height: 140px;
+  color: #ffffff;
+  background: #515151;
+  font: 14px/1.5 "微软雅黑";
+  padding: 24px 40px;
+  position: relative;
+  bottom: 0;
+}
+.index-footer .QRCode {
+  /*float: left;*/
+  position: absolute;
+  /*margin-right: 40px;*/
+}
+.index-footer .QRCode img {
+  width: 90px;
+  height: 90px;
+}
+
+.footer-content{
+  margin-left: 100px;
+  font-size: 13px;
+  padding-top: 20px
+}
+
+
+.mid {
+  float: left;
+  width:55%;
+}
+.showText{
+  width: 45%;
+  float: left;
+}
+.intro-title {
+  color: #ea3f45;
+  font-size: 20px;
+  position: absolute;
+  right: 21%;
+  top: -8px;
+}
+.showText p{
+  line-height: 2;
+  margin-top: -6px;
+}
+
+.showText b {
+  color: #ea3f45;
+  font-size: 16px;
+}
+.triangle {
+  position: absolute;
+  top: -30px;
+  right: 21%;
+}
