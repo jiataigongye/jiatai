@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <title>嘉泰工业设计|非标产品全产业链服务平台|嘉泰设计官网</title>
+    <link rel="icon" href="icon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="icon.ico" type="image/x-icon" />
+    <meta content="专业从事非标产品研发、设计及定制生产的一站式服务企业，现已建成占地30亩、建筑面积一万三千余平米的全产业链服务基地，拥有自动化、医疗、多媒体等多个领域的专业设计团队和完善的配套检测、实验设备，是国内系统建设较为完善的民营工业设计机构。" name="Description">
+    <meta content="工业设计，产品设计，外观设计，手板，自动化，多媒体，医疗，绵阳手板，定制生产，四川嘉泰" name="Keywords">
+    <meta charset="UTF-8">
+    <meta name="renderer" content="webkit">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+
+    <!--百度站长验证-->
+    <meta name="baidu-site-verification" content="itDhqmh0KD" />
+    <!--avalon-->
+    <link href="./src/css/bootstrap.css" rel="stylesheet" type="text/css"/>
+    <link href="./common.css" rel="stylesheet" type="text/css"/>
+    <link rel="stylesheet" href="./src/css/font-awesome.min.css"/>
+    <script src="./src/js/avalon.modern.1.5.min.js"></script>
+    <script src="./plugins/browser/browser.js"></script>
+    <script>
+        (function (){
+            console.log(browser)
+            if(browser.webkit){
+                return
+            }
+            if(browser.ie){
+                if(browser.version<10){
+                    window.location.href='./err.html'
+                }
+            }
+        })()
+
+    </script>
+    <style>
+        [ms-controller] {
+            visibility: hidden
+        }
+    </style>
+    <link rel="stylesheet" href="src/css/local.css">
+</head>
+<body ms-controller="index">
+<!--导航-->
+<div class="jt-nav">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-3">
+                <div class="jt-nav-band">
+                    <a href="#!/Home/0">
+                        <img src="./images/企业logo.png" alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="col-sm-9">
+                <div class="pull-right">
+                    <a class="jt-nav-link" ms-repeat="nav" ms-class="now:nowTop==el.en||nowTop==el.name"
+                       ms-attr-href="el.href">
+                        {{el.name}}
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<br>
+<!--正文-->
+<div style="min-height: 440px">
+    {{html|html}}
+</div>
+
+<br>
+<br>
+<!--页脚-->
+<div class="index-footer">
+    <div class="triangle">
+        <img src="./images/页脚三角.png" alt="">
+    </div>
+    <div class="container">
+        <h2 class="intro-title">
+            <span style="font-size: 18px;">Since</span>&nbsp;1999
+        </h2>
+        <br>
+        <div class="row">
+            <div class="col-xs-1">
+                <img src="./images/二维码.png" alt="">
+            </div>
+            <div class="col-xs-4">
+                <p>
+                    <span style="margin-right: 10px">地址：四川省绵阳市游仙区游仙东路104号</span><br>
+                    <span style="margin-right: 10px">座机：0816-6866625</span><br>
+                    <span>邮箱：jtid@163.com</span>
+                </p>
+            </div>
+            <div class="col-xs-7">
+                <p style="    line-height: 28px;">
+                    <b style="color: #e14045;font-size: larger">“嘉泰工业设计”</b>是西南地区最早的工业设计品牌，是专业为医疗、电子、
+                    军工及科研等领域提供工业设计与定制化生产的一站式服务企业
+                    <br>
+                <span style="font-size: smaller;color: #939393;">
+                    <span>CopyRight&nbsp;&copy;2016&nbsp;嘉泰工业设计与制造&nbsp;&nbsp;</span>
+                    蜀ICP备14013461号-1&nbsp;&nbsp;
+                    <a target="_blank"
+                       href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=51070402110130"
+                       style="display:inline-block;text-decoration:none;height:20px;line-height:20px;">
+                        <img src="./images/250.png"
+                             style="width: 14px;"/>
+                        <span style="height:20px;line-height:20px;margin: 0px 0px 0px 5px; color:#939393;">川公网安备
+                            51070402110130号
+                        </span>
+                    </a>
+                </span>
+                </p>
+            </div>
+        </div>
+
+
+    </div>
+
+</div>
+
+
+<!--在线资讯-->
+<div class="msg-me">
+    <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=34520726&site=qq&menu=yes">
+        <img border="0" src="images/留言咨询1.png" alt="点击这里给我发消息" title="点击这里给我发消息"/>
+    </a>
+</div>
+
+<div class="jt-footer">
+
+</div>
+<script ms-if="showMap" type="text/javascript"
+        src="http://api.map.baidu.com/api?v=2.0&ak=e1BG3WIahWLUVYdYQqy3HpKkOmGmLo6L"></script>
+
+<!--组件-->
+<tsy:progressbar config="$optd"></tsy:progressbar>
+<tsy:tip config="$opta"></tsy:tip>
+<tsy:pop config="$optpop"></tsy:pop>
+<tsy:pop config="$optpop2"></tsy:pop>
+
+<!--引用逻辑-->
+<!--<script src="//cdn.bootcss.com/markdown.js/0.6.0-beta1/markdown.min.js"></script>-->
+<script src="plugins/cache/cache.js"></script>
+<script src="plugins/call/call.mobile.v2.js"></script>
+<script src="index.js"></script>
+</body>
+</html>
